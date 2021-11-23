@@ -1,0 +1,26 @@
+/* 
+Hyderabad : https://cdn.iconscout.com/icon/free/png-256/charminar-119682.png
+Chennai : https://image.shutterstock.com/image-vector/chennai-city-monument-indian-on-260nw-1207909831.jpg
+Bangalore : https://static.thenounproject.com/png/2165510-200.png
+Visakhapatnam : https://w7.pngwing.com/pngs/795/636/png-transparent-computer-icons-visakhapatnam-ferris-wheel-miscellaneous-building-text.png
+Vijayawada : 
+*/
+.location{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.location__image{
+    width: 100px;
+    height: 100px;
+   
+}
+.location__name{
+    height: 100px;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    font-size: 20px;
+}
